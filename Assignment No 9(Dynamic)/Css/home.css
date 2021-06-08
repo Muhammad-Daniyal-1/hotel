@@ -1,0 +1,325 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Tangerine', cursive;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 199px;
+    left: 1214px;
+    margin: 0;
+    transform: rotate(90deg);
+    z-index: 15;
+}
+
+.formm {
+    background-color: #fe5722;
+    color: white;
+    border-radius: 0px;
+}
+
+.formm:focus {
+    background-color: #fe5722;
+    color: white;
+}
+
+.carousel-item {
+    height: 630px;
+}
+
+.carousel-caption {
+    margin-bottom: 280px;
+}
+
+.hotel_booking {
+    margin-bottom: -40px;
+
+}
+
+.check_in_out {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:767px) {
+    .hotel_booking {
+        margin-bottom: -302px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .hotel_info {
+        padding-top: 250px;
+        padding-bottom: 50px;
+    }
+}
+
+.carousel-caption h3 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+
+.dropdown-menu {
+    background-color: #fe5722;
+}
+
+.hotel_location {
+    margin-top: -10px;
+}
+
+.hotel_bg_color {
+    background-color: #fe5722;
+    padding-right: 0;
+    padding-left: 1px;
+}
+
+.field_color {
+    background-color: #fe5722;
+    color: white;
+}
+
+.Availability-check {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+.Availability-check:hover {
+    color: #fe5722;
+}
+
+.hotel_name {
+    /* font-size: 30px; */
+    text-decoration-line: overline underline;
+    text-underline-position: under;
+}
+
+.btn-clr {
+    background-color: #fe5722;
+    border-radius: 50px;
+    height: 50px;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-clr:hover {
+    background-color: #f83f07;
+    font-weight: bold;
+}
+
+.h1 {
+    font-size: 50px;
+}
+
+.featured_hotel {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.hotel_info {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.for_card_height {
+    height: 333px;
+}
+
+.bg-color {
+    background: #bdbcbc;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.form-control {
+    width: 60%;
+}
+
+.font {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.uderline:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.font:hover {
+    color: #b86127;
+}
+
+.text_adjustment {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.button:hover span {
+    padding-right: 20px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.bg_color_of_message_box {
+    background: #e65d27;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    border: none;
+}
+
+.text_box_img {
+    height: 170px;
+}
+
+.card_imgh_1 {
+    height: 218px;
+}
+
+.image__text {
+    background-color: white;
+    width: 70px;
+    height: 50px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.footer_list li {
+    color: red;
+    font-size: 15px;
+    list-style: none;
+}
+
+.fab {
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+
+.fab:hover {
+    color: rgba(255, 94, 0, 0.829);
+}
+
+.bg_color_of_footer {
+    background-color: rgb(190, 185, 185);
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+/* 
+#mainNavbar {
+    position: absolute;
+    top: 0;
+    z-index: 12;
+    left: 0;
+} */
+
+.Text_box_name {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+.text-in-a-box {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.cont:hover .overlay {
+    width: 40%;
+    right: 0;
+}
+
+.cont2:hover .overlay2 {
+    width: 50%;
+    right: 0;
+}
+
+.text2 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #F04825;
+    overflow: hidden;
+    width: 0;
+    height: 14%;
+    transition: 0.4s ease;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #F04825;
+    overflow: hidden;
+    width: 0;
+    height: 20%;
+    transition: .5s ease;
+}

@@ -1,0 +1,90 @@
+.sea {
+    padding-top: 50px;
+    background-image: url("../images/sea-1209607_1920.jpg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tablet {
+    width: 100%;
+    height: 780px;
+}
+
+h5 {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+
+.form-position {
+    position: absolute;
+    top: 23%;
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width:1024px) {
+    .input_field {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .input_field {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .input_field {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .input_field {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .input_field {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .input_field {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .input_field {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .input_field {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .input_field {
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,100 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bed {
+    background-image: url("../images/slider1_black.png");
+    background-attachment: fixed;
+    width: 100%;
+    height: 530px;
+    margin-bottom: 100px;
+}
+
+ul .dropdown-menu {
+    background-color: #fe5722;
+}
+
+.navbar-brand {
+    font-family: 'Tangerine', cursive;
+}
+
+.Main_heading {
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+#luxe {
+    color: white;
+    font-family: serif;
+    transition: 0.5s;
+}
+
+#luxe:hover {
+    color: #F04825;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F04825;
+}
+
+.comment {
+    height: 200px;
+    width: 640px;
+}
+
+.Address-size {
+    font-size: 15px;
+    color: grey;
+}
+
+
+/* Footer */
+
+.footer_list li {
+    color: red;
+    font-size: 15px;
+    list-style: none;
+}
+
+.fab {
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+
+.fab:hover {
+    color: rgba(255, 94, 0, 0.829);
+}
+
+.bg_color_of_footer {
+    background-color: rgb(190, 185, 185);
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+
+/* Footer End */
+
+.icons {
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}

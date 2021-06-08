@@ -1,0 +1,69 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.bed {
+    background-image: url("../images/slider1_black.png");
+    background-attachment: fixed;
+    width: 100%;
+    height: 530px;
+    margin-bottom: 100px;
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.Main_heading {
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+}
+
+ul .dropdown-menu {
+    background-color: #fe5722;
+}
+
+.navbar-brand {
+    font-family: 'Tangerine', cursive;
+}
+
+
+/* Mid Part */
+
+.middle-icons {
+    color: #ff730094;
+}
+
+
+/* Footer */
+
+.footer_list li {
+    color: red;
+    font-size: 15px;
+    list-style: none;
+}
+
+.fab {
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+}
+
+.fab:hover {
+    color: rgba(255, 94, 0, 0.829);
+}
+
+.bg_color_of_footer {
+    background-color: rgb(190, 185, 185);
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
